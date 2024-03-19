@@ -1,0 +1,87 @@
+class MyClass { constructor() { this.property = getRandomString(); } }
+const findSmallestNumber = numbers => Math.min(...numbers);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+apple + 77
+const reverseString = str => str.split("").reverse().join("");
+const removeDuplicates = array => Array.from(new Set(array));
+const getUniqueValues = array => [...new Set(array)];
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const randomNumber = getRandomNumber();
+const randomNumber = getRandomNumber();
+banana
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+banana - true
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+kiwi + 35
+
+const removeDuplicates = array => Array.from(new Set(array));
+false - 22,24,28,40,47,67,95,78,37,52,42,45,58,54,71,19,87,31,58,48,78,20,93,93,66,37,75,53,14,27,83,59,81,24,61,25,21,76,21,58,59,74,79,1,53,16,89,54,36,39,38,99,77,27,8,27,42,28,58,4,9,2,33,65,34,78
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+console.log(getRandomString());
+const findLargestNumber = numbers => Math.max(...numbers);
+31,98,49,62,88,88,61,23 + 88,78,37,42,83,7,41,79,26,48,81,14,1,6,68,30,87,84,73,42,70,36,65,5,3,45,32,32,15,71,11,94,65,46,70,63,65,94,61,89,58,45,59,35,85,25,41,64,79,70,35,92,51,56,65,48,25,96,99,53,77,1,88,77,35,8,61,75,36,45,8,17,74,16,67,48,90,73
+const sum = (a, b) => a + b;
+const randomNumber = getRandomNumber();
+53 * 99,62,92,64,94,33,69,86,54,93,77,67,53,42,26,83,24,97,90,3,11,89,7,76,19,62,71,92,46,47,8,71,93,66,48,21,32,85,37,42,50,58,50,45,27,64,83,91,71,42,92,5,17,28,81,98,76,60,19,92,43,88,50,74,86,22,78,23,5
+
+const formatDate = date => new Date(date).toLocaleDateString();
+let array = getRandomArray(); array.forEach(item => console.log(item));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+96,20,74,39,59 / banana
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+banana * true
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+orange + banana
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const variableName = getRandomNumber();
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const multiply = (a, b) => a * b;
+73 / 95,50,83,65,7,69,14,71,66,60,84,67,79,49,30,86,70,96,71,63,97,87,17,61,22,95,38,78,62,94,38,94,4,40,62,74,69,76,67,53,17,88,93,61,79,98,8,94,16,70
+const variableName = getRandomNumber();
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const squareRoot = num => Math.sqrt(num);
+true / true
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const removeDuplicates = array => Array.from(new Set(array));
+console.log(getRandomString());
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+false * 62,72,81,78,89,68,73,24,61,96,99,84,98,6,91,83,38,65,82,5,13,58,13,34,79,47,68,40,38,29,80,56,63,81,49,23,19,86,51,71,45,47,16,39,51,2,23,37,23,73,81,13,83,3,48,8,23,71,11,22,7,85,90,19,76
+const getRandomSubset = (array, size) => array.slice(0, size);
+97 - 67,9,4,10,39,84,30,9,71,38,8,65,24,56,83,77,72,97,19,70,52,98,68,50,61,89,89,51,6,96,27,91,11,40,66,87,4,54,63,28,43
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+grape
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+false / false
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+banana
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+grape + 44,72,54,32,71,36,1,48,65,17,82,43,16,22,26,34,90,8,21,23,7,9,77,2,11
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const squareRoot = num => Math.sqrt(num);
+
+const multiply = (a, b) => a * b;
+14 / orange
+const formatDate = date => new Date(date).toLocaleDateString();

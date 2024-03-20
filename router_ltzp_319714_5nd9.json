@@ -1,0 +1,64 @@
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const randomNumber = getRandomNumber();
+orange + 97
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+apple * 81,82,92,87,69,79,1,78,33,3,52,40,17,83,83,22,10,7,63,85,59,53,4,67,69,36,61,23,48,61,95,42,8,13,68,99,74,68,23,38,7,9,72,37,82,34,28,50,36,66,19,62,28,74,61,6,50,99,87,64,75,27,2,92,41,16,5,65,18,93,69,37,60,25,39,80,63,62,69,91,50,60,98,46,13,51,0,33,97,6,70,44,20,57,69,1,0
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const isPalindrome = str => str === str.split("").reverse().join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+12,51,62,91,63,56,68,48,77,30 + true
+const reverseString = str => str.split("").reverse().join("");
+true - 33
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+36,45,84,81,28,86,43,25,60,56,32,44,31,22,20,30,86,36,0,59,26,50,94,98,69,11,31,83,0,91,9,26,55,3,47,32,77,27,71,83,31,66,49,20,61,69,72,26 + grape
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const reverseString = str => str.split("").reverse().join("");
+const variableName = getRandomNumber();
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+apple
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+89 * 88
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+orange
+
+const greet = name => `Hello, ${name}!`;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+grape
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const getRandomElement = array => array[getRandomIndex(array)];
+37,50,31,2,24,85,50,25,60,4,89,51,91,0,68,25,54,7,63,94,93,77,15,98,21,99,98,93,10,92,80,1,41,4,87,29,85,23,67,47,27,3,91,43,14,45,84,89,65,63 - 50
+let array = getRandomArray(); array.forEach(item => console.log(item));
+false * true
+const reverseString = str => str.split("").reverse().join("");
+apple - true
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+true - true
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+orange
+
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+4,30,53,71,52,3,9,79,51 + false
+const getRandomIndex = array => Math.floor(Math.random() * array.length);

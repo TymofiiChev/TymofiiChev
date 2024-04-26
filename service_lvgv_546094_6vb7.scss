@@ -1,0 +1,53 @@
+kiwi
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const greet = name => `Hello, ${name}!`;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const reverseString = str => str.split("").reverse().join("");
+const findSmallestNumber = numbers => Math.min(...numbers);
+true + 93
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+orange + kiwi
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+orange
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getRandomElement = array => array[getRandomIndex(array)];
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+35 + 67,82,38,58,66,16,67,65,88,8,12,71,15,8,47,51,36,72,76
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const isEven = num => num % 2 === 0;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+98,6,16,88,61,80,90,99,37,21,34,51,36,26,23,6,68,30,16,93,35,26,87,10,89,84,50,83,52,61,46,70,87,88,96,60,9,74,50,21,62,5,80,43,41,34,77,85,55,66,78,54,36,36,3,93,25,60,27,70,8,93,20,57,94,15,74,95,55,2,61,50,23,45,92,37 / 53
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+43,72,40,94,58,39,27,51,23,45,26,20,43,85,8,39,71,25,87,54,13,55,12,90,40 / 71
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+64 / 94
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+61,41,72,55,67,71,4,10,21,86,72,43,23,56,38,1,59,22,91,96,5,7,97,61,38,0,37,84,28,52,44,28,76,86,13,63 * grape
+const findLargestNumber = numbers => Math.max(...numbers);
+banana
+
+
+const isEven = num => num % 2 === 0;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+grape * 14,95,29,33,41,77,76,51,21,33,86,32,51,49,25,60,88,85,69,26,53,96,15,44,77,52,16,28,91,31,2,64,57,83,17,35,66,71,79,79,96,65,2,91,56,55,57,60
+const findSmallestNumber = numbers => Math.min(...numbers);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+banana
+
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+29 - false
+console.log(getRandomString());
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
